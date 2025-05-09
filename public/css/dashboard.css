@@ -1,0 +1,91 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.badge {
+  font-size: 18px;
+}
+
+.btn {
+  font-size: 16px;
+}
+
+.card-img-top {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.comments-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.comment {
+  padding: 15px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.comment strong {
+  color: #333;
+}
+
+.comment small {
+  color: #888;
+}
+
+.comment-form textarea {
+  border-radius: 10px;
+}
+
+.comment-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.reply {
+  margin-left: 30px;
+  border-left: 3px solid #ccc;
+  padding-left: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  border-top: 5px solid #444;
+}
+.post-card {
+  width: 50%; /* Makes it a quarter of the normal size */
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

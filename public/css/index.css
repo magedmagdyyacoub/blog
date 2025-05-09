@@ -1,0 +1,66 @@
+/* General Styles for the Home Page */
+main {
+  padding: 50px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  margin-top: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading Styles */
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Paragraph Styles */
+main p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 25px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffa07a;
+}
+
+/* Link Styling */
+a {
+  color: #ff6347;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffa07a;
+}
+
+/* Container Styling */
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 25px;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}

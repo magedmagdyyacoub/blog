@@ -1,0 +1,37 @@
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 a {
+  color: #ff6347;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: #ffa07a;
+}
+
+/* Bootstrap Navbar */
+nav {
+  margin-top: 15px;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #ff6347;
+}
+
+.navbar-nav .active {
+  background-color: #ffa07a;
+}

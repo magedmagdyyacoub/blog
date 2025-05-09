@@ -1,0 +1,11 @@
+header, main, footer {
+  display: block;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

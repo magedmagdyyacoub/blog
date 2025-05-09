@@ -1,0 +1,68 @@
+/* General Styles for the Login Page */
+body {
+  background-color: #f2f2f2;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Centering the Login Form */
+form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title Style */
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input Fields Styling */
+input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #ff6347; /* Tomato color */
+  outline: none;
+}
+
+/* Button Style */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6347; /* Tomato color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffa07a; /* Lighter tomato on hover */
+}
+
+/* Error Message Styling */
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
